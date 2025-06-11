@@ -1,19 +1,10 @@
-import { supabase } from '@/lib/supabaseClient';
+import { lessons } from '@/lib/programData';
 
-interface LessonPageProps {
-  params: { week: string; lessonId: string };
-}
-
-export default async function LessonPage({ params }: LessonPageProps) {
-  const { lessonId } = params;
-  const { data: lesson, error } = await supabase
-    .from('lessons')
-    .select('*')
-    .eq('id', lessonId)
-    .single();
-
-  if (error || !lesson) {
-    return <div>Error loading lesson: {error?.message || 'Not found'}</div>;
+export default function LessonPage({ params }: any) {
+  const lessonNum = Number(params.lessonId);
+  const lesson = lessons.find((l) => l.id === lessonNum);
+  if (!lesson) {
+    return <div>Error loading lesson.</div>;
   }
 
   return (
@@ -22,9 +13,19 @@ export default async function LessonPage({ params }: LessonPageProps) {
       {lesson.video_url && (
         <video src={lesson.video_url} controls className="w-full max-w-xl" />
       )}
-      <div className="prose">{lesson.text_content}</div>
+      <div className="prose">
+        <p>{lesson.text_content}</p>
+      </div>
+      <div>
+        <h2 className="text-xl font-semibold">Training Instructions</h2>
+        <ol className="list-decimal list-inside space-y-2">
+          {lesson.steps.map((step, idx) => (
+            <li key={idx}>{step.text}</li>
+          ))}
+        </ol>
+      </div>
       <button className="px-4 py-2 bg-green-600 text-white rounded">
-        {lesson ? 'Mark Complete' : 'Start Lesson'}
+        Mark Complete
       </button>
     </div>
   );
