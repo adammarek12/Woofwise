@@ -15,10 +15,11 @@ export default function SignUp() {
   const handleSignUp = async (e: React.FormEvent) => {
     e.preventDefault();
     setError(null);
-    const { data, error } = await supabase.auth.signUp(
-      { email, password },
-      { data: { first_name: firstName, last_name: lastName } }
-    );
+    const { data, error } = await supabase.auth.signUp({
+      email,
+      password,
+      options: { data: { first_name: firstName, last_name: lastName } },
+    });
     if (error) setError(error.message);
     else router.push('/dashboard');
   };

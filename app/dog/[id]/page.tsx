@@ -1,10 +1,7 @@
 import { supabase } from '@/lib/supabaseClient';
 
-interface DogProfileProps {
-  params: { id: string };
-}
-
-export default async function DogProfile({ params }: DogProfileProps) {
+export const dynamic = 'force-dynamic';
+export default async function DogProfile({ params }: any) {
   const { data: dog, error } = await supabase
     .from('dogs')
     .select('*')

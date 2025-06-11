@@ -17,9 +17,9 @@ export default function Dashboard() {
 
   useEffect(() => {
     async function fetchDogs() {
-      const { data, error } = await supabase.from<Dog>('dogs').select('*');
+      const { data, error } = await supabase.from('dogs').select('*');
       if (error) console.error(error);
-      else setDogs(data);
+      else setDogs(data as Dog[]);
     }
     fetchDogs();
   }, []);
