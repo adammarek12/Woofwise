@@ -10,13 +10,14 @@
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.49.4",
+    "@types/react-router-dom": "^5.3.3",
     "@vitejs/plugin-react-swc": "^3.10.2",
     "lovable-tagger": "^1.1.8",
     "next": "15.3.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.6.2",
-    "vite": "^6.3.5"
+    "vite": "^5.4.19"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
