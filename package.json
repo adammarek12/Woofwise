@@ -13,7 +13,9 @@
     "@vitejs/plugin-react-swc": "^3.10.2",
     "next": "15.3.2",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.6.2",
+    "vite": "^6.3.5"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
