@@ -2,12 +2,12 @@
   "name": "woofwise",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "vite",
+    "build": "vite build",
     "build:dev": "vite build --mode development",
-    "start": "next start",
-    "lint": "next lint"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.58.0",
