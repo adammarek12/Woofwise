@@ -1,7 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ShieldCheck, Clock, ChevronDown, MessageCircle, Star } from 'lucide-react';
-import heroDog from '../assets/hero-dog.jpg';
+import heroDogAsset from '../assets/woofwise-original-dog.jpg.asset.json';
+
+const heroDog = heroDogAsset.url;
 
 const heroPoints = [
   { Icon: ShieldCheck, label: 'Positive Reinforcement' },
