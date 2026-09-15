@@ -42,6 +42,7 @@ const testimonials = [
       'The structured approach made all the difference. My German shepherd is now responding to commands without the need for treats.',
   },
   {
+    avatar: 'https://randomuser.me/api/portraits/women/68.jpg',
     name: 'Emily K.',
     quote:
       'As a first-time dog owner, I was overwhelmed. WoofWise broke everything down into manageable steps, and now both of us are enjoying training time!',
