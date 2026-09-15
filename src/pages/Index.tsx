@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 import heroDog from '../assets/hero-dog.jpg';
 
 const heroPoints = [
-  { icon: '🛡️', label: 'Positive Reinforcement' },
-  { icon: '⏱️', label: 'Quick Results' },
-  { icon: '📘', label: 'Structured Programs' },
-  { icon: '💬', label: 'Expert Guidance' },
+  { icon: '♥', label: 'Positive Reinforcement' },
+  { icon: '⏱', label: 'Quick Results' },
+  { icon: '✓', label: 'Structured Programs' },
+  { icon: '★', label: 'Expert Guidance' },
 ];
 
 const steps = [
