@@ -30,6 +30,7 @@ const steps = [
 
 const testimonials = [
   {
+    avatar: 'https://randomuser.me/api/portraits/women/45.jpg',
     name: 'Sarah T.',
     quote:
       "My corgi Max was always pulling on the leash and wouldn't listen. After 4 weeks with WoofWise, he's like a different dog!",
