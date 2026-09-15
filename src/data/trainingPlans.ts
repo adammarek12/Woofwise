@@ -23,9 +23,9 @@ export const trainingPlans: TrainingPlan[] = [
     title: 'Recall / Come When Called',
     subtitle: 'A foundational safety behavior built on reward, never pressure.',
     overview:
-      'Teaches your dog that coming to you is always the best thing that could happen — every time, no exceptions. This is a foundational safety behavior.',
+      'Teaches your dog that coming to you is always the best thing that could happen  -  every time, no exceptions. This is a foundational safety behavior.',
     whyItWorks:
-      'Recall is one of the best-studied behaviors in dog training. Research (Cooper et al. 2014; China et al. 2020) found no advantage for e-collar training over reward-based methods on recall reliability — and reward-trained dogs showed less stress. Positive reinforcement recall also improves faster over time because the dog is building a strong, growing reinforcement history rather than working to avoid something unpleasant.',
+      'Recall is one of the best-studied behaviors in dog training. Research (Cooper et al. 2014; China et al. 2020) found no advantage for e-collar training over reward-based methods on recall reliability  -  and reward-trained dogs showed less stress. Positive reinforcement recall also improves faster over time because the dog is building a strong, growing reinforcement history rather than working to avoid something unpleasant.',
     materials: [
       'High-value treats (small, soft, something your dog rarely gets otherwise)',
       'A 15–30 ft long line',
@@ -36,7 +36,7 @@ export const trainingPlans: TrainingPlan[] = [
         title: 'Build the Association',
         timeframe: 'Days 1–5, indoors',
         steps: [
-          'Say your dog\'s recall word ("Come!") in a happy, upbeat tone, then immediately produce a treat — every single time, regardless of what the dog was doing.',
+          'Say your dog\'s recall word ("Come!") in a happy, upbeat tone, then immediately produce a treat  -  every single time, regardless of what the dog was doing.',
           'Practice 5–10 reps per session, 2–3 sessions per day.',
           'Never call your dog to do something unpleasant (bath, nail trim) during this phase.',
         ],
@@ -55,14 +55,14 @@ export const trainingPlans: TrainingPlan[] = [
         timeframe: 'Weeks 3–4+',
         steps: [
           'Practice recall on walks, at the park, and in new environments, always leashed or long-lined until reliability is proven.',
-          'Gradually reduce treat frequency but never eliminate reinforcement entirely — vary it (treats, play, praise) to keep the behavior strong.',
+          'Gradually reduce treat frequency but never eliminate reinforcement entirely  -  vary it (treats, play, praise) to keep the behavior strong.',
         ],
       },
     ],
     dailyPractice:
       '3–5 minutes, 2–3x per day is more effective than one long session. Track reps and success rate.',
     troubleshooting: [
-      "If your dog stops responding, you've likely progressed too fast — return to an easier distance or distraction level.",
+      "If your dog stops responding, you've likely progressed too fast  -  return to an easier distance or distraction level.",
       'Never call your dog and then punish them for a slow response; this teaches dogs that "come" predicts something bad.',
     ],
   },
@@ -71,7 +71,7 @@ export const trainingPlans: TrainingPlan[] = [
     title: 'Loose Leash Walking',
     subtitle: 'Pulling never works; a loose leash always does.',
     overview:
-      'Teaches your dog that a loose leash — not pulling — is what gets them where they want to go.',
+      'Teaches your dog that a loose leash  -  not pulling  -  is what gets them where they want to go.',
     whyItWorks:
       'Dogs pull because pulling has historically worked (it gets them forward, faster). The core mechanic across credible force-free methods is removing the reward for pulling (forward motion stops) while reinforcing loose-leash behavior generously. No leash-popping or correction is needed or shown to work better.',
     materials: [
@@ -93,7 +93,7 @@ export const trainingPlans: TrainingPlan[] = [
         timeframe: 'Days 5–12',
         steps: [
           'Begin walking. The instant the leash goes tight, stop moving completely ("be a tree").',
-          'Wait for slack to return to the leash (dog stops pulling or turns back toward you) — do not pull the dog back.',
+          'Wait for slack to return to the leash (dog stops pulling or turns back toward you)  -  do not pull the dog back.',
           'The moment the leash is loose, mark ("Yes!") and resume walking.',
           'Consistency is everything: pulling should never, ever get the dog where it wants to go.',
         ],
@@ -108,10 +108,10 @@ export const trainingPlans: TrainingPlan[] = [
       },
     ],
     dailyPractice:
-      "Every walk is a training opportunity — you don't need separate sessions, just consistency on every walk from day one.",
+      "Every walk is a training opportunity  -  you don't need separate sessions, just consistency on every walk from day one.",
     troubleshooting: [
       'Progress is often slow at first because dogs have a long reinforcement history of successful pulling.',
-      'Stay consistent — even one leash-pop or "give in" resets progress by reinforcing pulling intermittently, which is the hardest reinforcement pattern to break.',
+      'Stay consistent  -  even one leash-pop or "give in" resets progress by reinforcing pulling intermittently, which is the hardest reinforcement pattern to break.',
     ],
   },
   {
@@ -121,7 +121,7 @@ export const trainingPlans: TrainingPlan[] = [
     overview:
       'Redirects your dog\'s greeting instinct (jumping to reach your face) into a polite, rewarded "four on the floor" or sit greeting.',
     whyItWorks:
-      'Jumping persists because it\'s usually accidentally reinforced — even a scolding or push is attention, and attention is often exactly what the dog wants. The evidence-based fix is to remove all reinforcement for jumping (no eye contact, touch, or talking) and heavily reward the calmer alternative behavior instead. This "differential reinforcement" approach is well-supported and far more reliable than punishment-based suppression.',
+      'Jumping persists because it\'s usually accidentally reinforced  -  even a scolding or push is attention, and attention is often exactly what the dog wants. The evidence-based fix is to remove all reinforcement for jumping (no eye contact, touch, or talking) and heavily reward the calmer alternative behavior instead. This "differential reinforcement" approach is well-supported and far more reliable than punishment-based suppression.',
     materials: [
       'Treats',
       'Willing "practice guests" for later phases',
@@ -149,26 +149,26 @@ export const trainingPlans: TrainingPlan[] = [
         timeframe: 'Weeks 3+',
         steps: [
           'Practice with a gate or pen for real guest arrivals at first, rewarding calm behavior behind the barrier before removing it.',
-          "Enlist friends to help — brief them beforehand so they don't accidentally reward jumping.",
+          "Enlist friends to help  -  brief them beforehand so they don't accidentally reward jumping.",
         ],
       },
     ],
     dailyPractice:
       'Short, frequent reps at every natural greeting opportunity (you coming home, family entering a room) work better than staged-only sessions.',
     troubleshooting: [
-      'If jumping increases at first, that\'s a normal "extinction burst" — stay consistent, it typically resolves within days if reinforcement is truly withheld every time.',
+      'If jumping increases at first, that\'s a normal "extinction burst"  -  stay consistent, it typically resolves within days if reinforcement is truly withheld every time.',
     ],
   },
   {
     slug: 'crate-training',
     title: 'Crate Training',
-    subtitle: 'A safe den your dog chooses — never a punishment.',
+    subtitle: 'A safe den your dog chooses  -  never a punishment.',
     overview:
-      'Builds a genuine, voluntary positive association with the crate as a safe den — not a punishment tool.',
+      'Builds a genuine, voluntary positive association with the crate as a safe den  -  not a punishment tool.',
     whyItWorks:
-      'A crate introduced too fast, or ever used as punishment, is one of the most common causes of crate anxiety. The desensitization and counter-conditioning approach — gradual exposure paired with high-value rewards, always staying below the dog\'s stress threshold — is the standard veterinary-behaviorist protocol (AVSAB) for building comfort with confinement safely.',
+      'A crate introduced too fast, or ever used as punishment, is one of the most common causes of crate anxiety. The desensitization and counter-conditioning approach  -  gradual exposure paired with high-value rewards, always staying below the dog\'s stress threshold  -  is the standard veterinary-behaviorist protocol (AVSAB) for building comfort with confinement safely.',
     materials: [
-      'A properly sized crate (dog can stand, turn around, and lie down comfortably — not much larger)',
+      'A properly sized crate (dog can stand, turn around, and lie down comfortably  -  not much larger)',
       'High-value treats',
       'A favorite chew or stuffed food toy',
       'Comfortable bedding',
@@ -179,7 +179,7 @@ export const trainingPlans: TrainingPlan[] = [
         timeframe: 'Days 1–3',
         steps: [
           'Leave the crate door open in a social area of the house.',
-          'Toss treats near, then just inside, the entrance — let the dog explore at its own pace, no coercion.',
+          'Toss treats near, then just inside, the entrance  -  let the dog explore at its own pace, no coercion.',
           'Feed meals near or just inside the open crate.',
         ],
       },
@@ -197,25 +197,25 @@ export const trainingPlans: TrainingPlan[] = [
         timeframe: 'Weeks 2–4+',
         steps: [
           "Extend crate time gradually while you're home, then practice brief departures.",
-          "Watch for stress signals (panting, whining, escape attempts) — if seen, you've progressed too fast; scale back to the last comfortable duration.",
+          "Watch for stress signals (panting, whining, escape attempts)  -  if seen, you've progressed too fast; scale back to the last comfortable duration.",
         ],
       },
     ],
     dailyPractice:
       'Several short, successful crate sessions per day beat one long forced session. Never rush past signs of stress.',
     troubleshooting: [
-      "If whining occurs, don't let the dog out until it stops (even briefly) — releasing during whining teaches the dog that whining works.",
+      "If whining occurs, don't let the dog out until it stops (even briefly)  -  releasing during whining teaches the dog that whining works.",
       'A crate is not a fix for true separation anxiety. If your dog shows panic-level distress, that requires a broader desensitization protocol and, often, professional support.',
     ],
   },
   {
     slug: 'potty-training',
     title: 'Potty Training',
-    subtitle: 'Schedule, supervision and reward — never punishment.',
+    subtitle: 'Schedule, supervision and reward  -  never punishment.',
     overview:
-      'Builds a reliable outdoor-elimination habit through schedule, supervision, and reinforcement — not punishment for accidents.',
+      'Builds a reliable outdoor-elimination habit through schedule, supervision, and reinforcement  -  not punishment for accidents.',
     whyItWorks:
-      "Housetraining research and shelter-behavior guidance agree: reinforcing successful outdoor elimination works, while punishing accidents backfires — it teaches dogs to hide when eliminating rather than to prefer the outdoors. A predictable schedule leverages a puppy's natural bladder-holding limits (roughly one hour per month of age) to set them up to succeed rather than fail.",
+      "Housetraining research and shelter-behavior guidance agree: reinforcing successful outdoor elimination works, while punishing accidents backfires  -  it teaches dogs to hide when eliminating rather than to prefer the outdoors. A predictable schedule leverages a puppy's natural bladder-holding limits (roughly one hour per month of age) to set them up to succeed rather than fail.",
     materials: [
       'Treats',
       'A designated outdoor potty spot',
@@ -236,7 +236,7 @@ export const trainingPlans: TrainingPlan[] = [
         title: 'Reinforce Success',
         timeframe: 'Weeks 2–3',
         steps: [
-          'The moment your dog finishes eliminating outside, immediately praise and reward with a treat — timing matters, reward after they finish, not mid-stream.',
+          'The moment your dog finishes eliminating outside, immediately praise and reward with a treat  -  timing matters, reward after they finish, not mid-stream.',
           'Log every success and accident to spot patterns (timing, triggers).',
         ],
       },
@@ -250,10 +250,10 @@ export const trainingPlans: TrainingPlan[] = [
       },
     ],
     dailyPractice:
-      'Consistency beats intensity — same spot, same schedule, same calm reaction to accidents, every day.',
+      'Consistency beats intensity  -  same spot, same schedule, same calm reaction to accidents, every day.',
     troubleshooting: [
       'If an accident happens, clean thoroughly with an enzymatic cleaner (regular cleaners can leave scent traces that draw the dog back).',
-      "Never rub a dog's nose in an accident or scold after the fact — dogs don't connect the punishment to the act, only to your presence, which can create fear or hiding behavior.",
+      "Never rub a dog's nose in an accident or scold after the fact  -  dogs don't connect the punishment to the act, only to your presence, which can create fear or hiding behavior.",
     ],
   },
   {
@@ -261,13 +261,13 @@ export const trainingPlans: TrainingPlan[] = [
     title: 'Resource Guarding (Basic)',
     subtitle: 'Teach your dog that your approach means something better arrives.',
     overview:
-      'A foundational, prevention-focused protocol for mild guarding of food, toys, or space — teaching your dog that a person approaching a resource predicts something better, not a loss.',
+      'A foundational, prevention-focused protocol for mild guarding of food, toys, or space  -  teaching your dog that a person approaching a resource predicts something better, not a loss.',
     whyItWorks:
-      'Growling, freezing, or stiffening over a resource is a dog\'s normal communication, not "disrespect" — traditional corrections (taking the item by force, scolding) can escalate guarding by confirming the dog\'s fear that approach equals loss. The evidence-based approach used by veterinary behaviorists is desensitization and counter-conditioning: pairing a person\'s approach with something the dog values even more than what they\'re guarding.',
+      'Growling, freezing, or stiffening over a resource is a dog\'s normal communication, not "disrespect"  -  traditional corrections (taking the item by force, scolding) can escalate guarding by confirming the dog\'s fear that approach equals loss. The evidence-based approach used by veterinary behaviorists is desensitization and counter-conditioning: pairing a person\'s approach with something the dog values even more than what they\'re guarding.',
     safetyNote:
-      'This basic protocol is for mild guarding (stiffening, fast eating, mild growling) only. Any dog showing snapping, biting, or lunging needs an in-person certified trainer or veterinary behaviorist — do not attempt these do-it-yourself steps in those cases. Please seek professional help instead.',
+      'This basic protocol is for mild guarding (stiffening, fast eating, mild growling) only. Any dog showing snapping, biting, or lunging needs an in-person certified trainer or veterinary behaviorist  -  do not attempt these do-it-yourself steps in those cases. Please seek professional help instead.',
     materials: [
-      'Two treat types — the resource itself (e.g. regular kibble) and something higher-value (e.g. chicken, cheese)',
+      'Two treat types  -  the resource itself (e.g. regular kibble) and something higher-value (e.g. chicken, cheese)',
       'One target practiced at a time (food, toy, or location)',
     ],
     phases: [
