@@ -71,7 +71,7 @@ The initial database schema is defined in `supabase/schema.sql`:
   ```
 
 ---
-Empower your dog training journey with WoofWise—where smart structure meets joyful learning.
+Empower your dog training journey with WoofWise - where smart structure meets joyful learning.
 
 ## Getting Started
 
