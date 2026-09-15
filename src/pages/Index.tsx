@@ -176,7 +176,7 @@ export default function Index() {
                     alt={`${t.name} with their dog`}
                     loading="lazy"
                     className="h-14 w-14 shrink-0 rounded-full border-2 border-accent-soft object-cover"
-                  />>
+                  />
                   <div className="flex flex-col gap-1">
                     <span className="font-bold">{t.name}</span>
                     <span className="flex gap-0.5" aria-label="5 out of 5 stars">
