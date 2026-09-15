@@ -3,8 +3,6 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import AboutUs from './pages/AboutUs';
-import ClaudeCoach from './pages/ClaudeCoach';
-
 
 function App() {
   return (
@@ -29,7 +27,6 @@ function App() {
               </div>
             } />
             <Route path="/about" element={<AboutUs />} />
-            <Route path="/coach" element={<ClaudeCoach />} />
           </Routes>
         </main>
       </div>
