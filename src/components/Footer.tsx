@@ -55,6 +55,11 @@ export default function Footer() {
           ))}
         </div>
       </div>
+      <div className="mx-auto max-w-7xl px-5 sm:px-8">
+        <div className="border-t border-footer-foreground/20 py-8 text-center text-sm text-footer-foreground/60">
+          © 2026 WoofWise. All rights reserved.
+        </div>
+      </div>
     </footer>
   );
 }
