@@ -171,9 +171,12 @@ export default function Index() {
                 className="flex flex-col gap-5 rounded-2xl bg-surface p-7 shadow-sm"
               >
                 <div className="flex items-center gap-4">
-                  <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-primary-soft text-lg font-bold text-primary">
-                    {t.name.charAt(0)}
-                  </span>
+                  <img
+                    src={t.avatar}
+                    alt={`${t.name} with their dog`}
+                    loading="lazy"
+                    className="h-14 w-14 shrink-0 rounded-full border-2 border-accent-soft object-cover"
+                  />>
                   <div className="flex flex-col gap-1">
                     <span className="font-bold">{t.name}</span>
                     <span className="flex gap-0.5" aria-label="5 out of 5 stars">
