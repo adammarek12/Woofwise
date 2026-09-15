@@ -48,7 +48,7 @@ const testimonials = [
 function Pill({ children, tone = 'soft' }: { children: React.ReactNode; tone?: 'soft' | 'white' }) {
   return (
     <span
-      className={`inline-block rounded-full px-4 py-1.5 text-sm font-semibold text-primary ${
+      className={`w-fit self-center rounded-full px-4 py-1.5 text-sm font-semibold text-primary ${
         tone === 'white' ? 'bg-surface' : 'bg-primary-soft'
       }`}
     >
