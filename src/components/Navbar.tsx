@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 
 export default function Navbar() {
   return (
-    <header className="bg-white shadow">
-      <nav className="max-w-4xl mx-auto flex justify-between items-center p-4">
-        <Link to="/" className="text-xl font-bold">WoofWise</Link>
-        <div className="flex space-x-4">
+    <header className="border-b border-border bg-surface">
+      <nav className="mx-auto flex max-w-4xl flex-wrap items-center justify-between gap-3 p-4">
+        <Link to="/" className="text-xl font-bold text-primary">WoofWise</Link>
+        <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm sm:text-base">
           <Link to="/about" className="text-foreground/70 hover:text-foreground transition-colors">
             About Us
           </Link>
