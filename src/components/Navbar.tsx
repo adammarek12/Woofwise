@@ -10,6 +10,9 @@ export default function Navbar() {
           <Link to="/about" className="text-foreground/70 hover:text-foreground transition-colors">
             About Us
           </Link>
+          <Link to="/coach" className="text-foreground/70 hover:text-foreground transition-colors">
+            Claude Coach
+          </Link>
           <Link to="/dashboard" className="text-foreground/70 hover:text-foreground transition-colors">
             Dashboard
           </Link>
