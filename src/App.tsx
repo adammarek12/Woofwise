@@ -4,6 +4,8 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Index from './pages/Index';
 import AboutUs from './pages/AboutUs';
+import TrainingPlans from './pages/TrainingPlans';
+import TrainingPlanDetail from './pages/TrainingPlanDetail';
 
 function App() {
   return (
