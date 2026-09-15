@@ -94,12 +94,12 @@ export default function Index() {
             </div>
 
             <ul className="mt-2 grid gap-4 sm:grid-cols-2">
-              {heroPoints.map((p) => (
-                <li key={p.label} className="flex items-center gap-3">
-                  <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-primary-soft text-base">
-                    {p.icon}
+              {heroPoints.map(({ Icon, label }) => (
+                <li key={label} className="flex items-center gap-3">
+                  <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-primary-soft text-primary">
+                    <Icon size={18} strokeWidth={2.2} />
                   </span>
-                  <span className="font-medium">{p.label}</span>
+                  <span className="font-medium">{label}</span>
                 </li>
               ))}
             </ul>
