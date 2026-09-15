@@ -1,34 +1,29 @@
-
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Index from './pages/Index';
 import AboutUs from './pages/AboutUs';
 
 function App() {
   return (
     <Router>
-      <div className="min-h-screen bg-background">
+      <div className="flex min-h-screen flex-col bg-background">
         <Navbar />
-        <main className="max-w-4xl mx-auto p-4">
+        <main className="flex-1">
           <Routes>
-            <Route path="/" element={
-              <div className="container mx-auto px-4 py-8">
-                <div className="flex flex-col items-center justify-center min-h-screen p-8 gap-6">
-                  <h1 className="text-4xl font-bold text-center">
-                    Train Smarter. Go Leashless. Build Real Trust.
-                  </h1>
-                  <p className="text-lg text-center max-w-xl">
-                    WoofWise is a structured, multi-week dog training program designed for everyday dog owners. Enjoy smart, phased lessons that build real-world trust and behavior.
-                  </p>
-                  <button className="rounded-md bg-primary px-6 py-3 font-semibold text-primary-foreground transition-colors hover:bg-primary-hover">
-                    Start Training
-                  </button>
+            <Route path="/" element={<Index />} />
+            <Route
+              path="/about"
+              element={
+                <div className="mx-auto max-w-4xl px-5 py-12 sm:px-8">
+                  <AboutUs />
                 </div>
-              </div>
-            } />
-            <Route path="/about" element={<AboutUs />} />
+              }
+            />
           </Routes>
         </main>
+        <Footer />
       </div>
     </Router>
   );
