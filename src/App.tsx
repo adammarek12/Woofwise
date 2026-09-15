@@ -20,7 +20,7 @@ function App() {
                   <p className="text-lg text-center max-w-xl">
                     WoofWise is a structured, multi-week dog training program designed for everyday dog owners. Enjoy smart, phased lessons that build real-world trust and behavior.
                   </p>
-                  <button className="px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition">
+                  <button className="rounded-md bg-primary px-6 py-3 font-semibold text-primary-foreground transition-colors hover:bg-primary-hover">
                     Start Training
                   </button>
                 </div>
