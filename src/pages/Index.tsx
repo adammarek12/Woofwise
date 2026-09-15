@@ -165,13 +165,24 @@ export default function Index() {
             {testimonials.map((t) => (
               <blockquote
                 key={t.name}
-                className="flex flex-col gap-4 rounded-2xl bg-surface p-7 shadow-sm"
+                className="flex flex-col gap-5 rounded-2xl bg-surface p-7 shadow-sm"
               >
-                <div className="flex flex-col gap-1">
-                  <span className="font-bold">{t.name}</span>
-                  <span className="text-primary" aria-label="5 out of 5 stars">
-                    ★★★★★
+                <div className="flex items-center gap-4">
+                  <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-primary-soft text-lg font-bold text-primary">
+                    {t.name.charAt(0)}
                   </span>
+                  <div className="flex flex-col gap-1">
+                    <span className="font-bold">{t.name}</span>
+                    <span className="flex gap-0.5" aria-label="5 out of 5 stars">
+                      {Array.from({ length: 5 }).map((_, i) => (
+                        <Star
+                          key={i}
+                          size={16}
+                          className="fill-primary text-primary"
+                        />
+                      ))}
+                    </span>
+                  </div>
                 </div>
                 <p className="italic text-muted-foreground">"{t.quote}"</p>
               </blockquote>
