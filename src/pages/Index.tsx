@@ -36,6 +36,7 @@ const testimonials = [
       "My corgi Max was always pulling on the leash and wouldn't listen. After 4 weeks with WoofWise, he's like a different dog!",
   },
   {
+    avatar: 'https://randomuser.me/api/portraits/men/32.jpg',
     name: 'James R.',
     quote:
       'The structured approach made all the difference. My German shepherd is now responding to commands without the need for treats.',
