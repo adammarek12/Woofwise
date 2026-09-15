@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { ShieldCheck, Clock, ChevronDown, MessageCircle, Star } from 'lucide-react';
 import heroDog from '../assets/hero-dog.jpg';
 
 const heroPoints = [
-  { icon: '♥', label: 'Positive Reinforcement' },
-  { icon: '⏱', label: 'Quick Results' },
-  { icon: '✓', label: 'Structured Programs' },
-  { icon: '★', label: 'Expert Guidance' },
+  { Icon: ShieldCheck, label: 'Positive Reinforcement' },
+  { Icon: Clock, label: 'Quick Results' },
+  { Icon: ChevronDown, label: 'Structured Programs' },
+  { Icon: MessageCircle, label: 'Expert Guidance' },
 ];
 
 const steps = [
