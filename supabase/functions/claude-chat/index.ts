@@ -31,6 +31,8 @@ Deno.serve(async (req) => {
       );
     }
 
+    const workspaceId = Deno.env.get('ANTHROPIC_WORKSPACE_ID');
+
     const body = await req.json().catch(() => ({}));
     const parsed = RequestSchema.safeParse(body);
 
@@ -43,13 +45,19 @@ Deno.serve(async (req) => {
 
     const { message, history } = parsed.data;
 
+    const anthropicHeaders: Record<string, string> = {
+      'x-api-key': apiKey,
+      'anthropic-version': '2023-06-01',
+      'content-type': 'application/json',
+    };
+
+    if (workspaceId) {
+      anthropicHeaders['anthropic-workspace-id'] = workspaceId;
+    }
+
     const response = await fetch('https://api.anthropic.com/v1/messages', {
       method: 'POST',
-      headers: {
-        'x-api-key': apiKey,
-        'anthropic-version': '2023-06-01',
-        'content-type': 'application/json',
-      },
+      headers: anthropicHeaders,
       body: JSON.stringify({
         model: 'claude-3-5-sonnet-20241022',
         max_tokens: 1024,
